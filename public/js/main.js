@@ -58,7 +58,7 @@ async function deleteUser(e) {
 }
 
 document.addEventListener("DOMContentLoaded", getAllUsers);
-
+//
 peopleList.addEventListener("click", (e) => {
   deleteUser(e);
 });
